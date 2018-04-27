@@ -5,15 +5,15 @@ android {
     buildToolsVersion "23.0.3"
 
     defaultConfig {
-        applicationId "burningham18.adcatch"
+        applicationId "io.github.adcatch"
         minSdkVersion 15
         targetSdkVersion 23
-        versionCode 1
-        versionName "1.0"
+        versionCode 1.1
+        versionName "1.1"
     }
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
